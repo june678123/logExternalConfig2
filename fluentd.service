@@ -1,6 +1,6 @@
 [Unit]
 Description=Fluentd: Data collector for unified logging layer
-Documentation=https://docs.fluentd.org/
+After=network.target
 
 [Service]
 ExecStart=/usr/local/bin/fluentd -c /usr/local/share/ruby3.2-gems/gems/fluentd-1.18.0/fluent.conf
