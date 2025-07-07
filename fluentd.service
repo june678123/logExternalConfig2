@@ -1,5 +1,5 @@
 [Unit]
-Description=Fluentd: Data collector for unified logging layer
+Description=Fluentd service
 After=network.target
 
 [Service]
