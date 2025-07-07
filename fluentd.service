@@ -4,8 +4,8 @@ Documentation=https://docs.fluentd.org/
 
 [Service]
 ExecStart=/usr/local/bin/fluentd -c /usr/local/share/ruby3.2-gems/gems/fluentd-1.18.0/fluent.conf
-User=fluentd
-Group=fluentd
+User=root
+Group=root
 Restart=always
 PIDFile=/var/run/fluentd/fluentd.pid
 
