@@ -1,0 +1,12 @@
+[Unit]
+Description=Fluentd service
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/fluentd -c /etc/fluentd/fluent.conf
+Restart=always
+User=root
+Group=root
+
+[Install]
+WantedBy=multi-user.target
