@@ -7,7 +7,6 @@ ExecStart=/usr/local/bin/fluentd -c /usr/local/share/ruby3.2-gems/gems/fluentd-1
 User=fluentd
 Group=fluentd
 Restart=always
-LimitNOFILE=65536
 PIDFile=/var/run/fluentd/fluentd.pid
 
 [Install]
