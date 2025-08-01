@@ -3,7 +3,7 @@ Description=Fluentd service
 After=network.target
 
 [Service]
-ExecStart=/usr/local/bin/fluentd -c /usr/local/share/ruby3.2-gems/gems/fluentd-1.18.0/fluent.conf
+ExecStart=/usr/local/bin/fluentd -c /usr/local/share/ruby3.2-gems/gems/fluentd-1.19.0/fluent.conf
 User=root
 Group=root
 Restart=always
@@ -11,3 +11,4 @@ PIDFile=/var/run/fluentd/fluentd.pid
 
 [Install]
 WantedBy=multi-user.target
+
